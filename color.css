@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Varela+Round&display=swap');
+body {
+    background-color: antiquewhite;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family: "Ubuntu", sans-serif;
+
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height:55px;
+    background-color:green;
+    color:white
+}
+nav ul li {
+    padding: 0 10px;
+
+
+
+}
+.logo img{
+    width:47px;
+    padding: 0 8px;
+
+}
+.logo{
+    display:flex;
+    align-items: center;
+    font-weight:bolder;
+    font-size:1.3rem;
+}
+.bottom{
+    position: sticky;
+    height: 130px;
+    background-color: black;
+    color:white;
+    bottom:0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container{
+    min-height: 57vh;
+    font-family: "Roboto";
+    display:flex;
+    background-color: black;
+    color:white;
+    margin: 23px auto;
+    width:50%;
+    border-radius: 12px;
+    padding:34px;
+
+
+}
+
+#myProgressBar{
+    width:80vw;
+    text-align:start;
+    cursor:pointer;
+}
+.icons{
+    cursor:pointer;
+    margin-top: 14px;
+}
+
+.songItem{
+    height:50px;
+    display:flex;
+    margin:12px 7px;
+    background-color:white;
+    color:black;
+    align-items:center;
+    border-radius:25px;
+    justify-content:space-around;
+}
+.songItem img{
+    height:40px;
+    margin:23px 0;
+    border-radius: 34px;
+}
+.timestamp i{
+    cursor:pointer;
+}
+.timestamp{
+    margin:12px;
+}
+.songitem-container{
+    margin-top: 78px;
+}
+.songinfo{
+    position: absolute;
+    font-family: "Roboto";
+    left:10vw;
+}
+.songinfo img{
+    height:45px;
+    width:72px;
+    opacity:0;
+    transition: opacity 0.8 ease-in;
+}
+.songName{
+    color:black;
+}
+
+.songBanner{
+    margin-top: 60px;
+    padding:48px;
+}
